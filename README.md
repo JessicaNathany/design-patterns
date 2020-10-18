@@ -1,6 +1,6 @@
 # :computer: :blue_book: Design-Patterns
 
-#### Este repositório para quem tem interesse de se aprofundar mais em design patterns. Não coloquei todos os patterns, mas como vocês podem ver deixei os links de referência para poder consultar todos os patterns.
+##### Este repositório para quem tem interesse de se aprofundar mais em design patterns. Não coloquei todos os patterns, mas como vocês podem ver deixei os links de referência para poder consultar todos os patterns.
 
 #### Referências úteis: 
  * :orange_book: Livro Mergulho nos Padrões de Projeto - (https://refactoring.guru/pt-br)  
