@@ -2,9 +2,9 @@
 
 #### Este repositório para quem tem interesse de se aprofundar mais em design patterns.
 #### Referências úteis: 
- * [Mergulho nos Padrões de Projeto](https://refactoring.guru/pt-br)  
- * [Dev.IO](https://desenvolvedor.io/)
- * [Dofactory] (https://www.dofactory.com/net/abstract-factory-design-pattern)
+ * Livro Mergulho nos Padrões de Projeto - (https://refactoring.guru/pt-br)  
+ * Plataforma Dev.IO - (https://desenvolvedor.io/)
+ * Dofactory -  (https://www.dofactory.com/net/abstract-factory-design-pattern)
 
 
 ## Creation Patterns
@@ -18,5 +18,6 @@
 
 ### Singleton
 #### Cria uma única instância que será utilizada por recursos. É um padrão de projeto criacional que permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância. [Saiba mais](https://refactoring.guru/pt-br/design-patterns/singleton)
+
 
 
