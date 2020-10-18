@@ -1,6 +1,7 @@
 # Design-Patterns
 
 #### Este repositório para quem tem interesse de se aprofundar mais em design patterns.
+
 #### Referências úteis: 
  * Livro Mergulho nos Padrões de Projeto - (https://refactoring.guru/pt-br)  
  * Plataforma Dev.IO - (https://desenvolvedor.io/)
@@ -20,4 +21,6 @@
 #### Cria uma única instância que será utilizada por recursos. É um padrão de projeto criacional que permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância. [Saiba mais](https://refactoring.guru/pt-br/design-patterns/singleton)
 
 
+## Structural Patterns
+#### Os padrões estruturais explicam como montar objetos e classes em estruturas maiores mas ainda mantendo essas estruturas flexíveis e eficientes.
 
