@@ -6,6 +6,7 @@
  * :orange_book: Livro Mergulho nos Padrões de Projeto - (https://refactoring.guru/pt-br)  
  * :video_camera: Plataforma Dev.IO - (https://desenvolvedor.io/)
  * :bookmark_tabs: Dofactory -  (https://www.dofactory.com/net/abstract-factory-design-pattern)
+ * :bookmark_tabs: Sourcemaking -https://sourcemaking.com/design_patterns
 
 
 ## Creation Patterns
