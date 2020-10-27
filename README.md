@@ -4,7 +4,7 @@
 
 #### Referências úteis: 
  * :orange_book: Livro Mergulho nos Padrões de Projeto - (https://refactoring.guru/pt-br)  
- * :video_camera: Plataforma Dev.IO - (https://desenvolvedor.io/)
+ * :video_camera: Arquitetura e Desenvolvimento de Software Plataforma Dev.IO - (https://desenvolvedor.io/)
  * :bookmark_tabs: Dofactory -  (https://www.dofactory.com/net/abstract-factory-design-pattern)
  * :bookmark_tabs: Sourcemaking -https://sourcemaking.com/design_patterns
  * :bookmark_tabs: Programming Patterns Overview - http://kremer.cpsc.ucalgary.ca/patterns/
