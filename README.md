@@ -15,6 +15,8 @@
 ### Abstract Factory
 ##### Cria uma instância de diversas famílias de classes. É um padrão de projeto criacional que permite que você produza famílias de objetos relacionados sem ter que especificar  suas classes concretas. [Saiba mais](https://refactoring.guru/pt-br/design-patterns/abstract-factory)
 
+![alt text](https://www.dofactory.com/net/abstract-factory-design-pattern/abstract.gif)
+
 ### Factory Method
 ##### Cria uma instância de diversas derivações de classes. É um padrão criacional de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados. [Saiba mais](https://refactoring.guru/pt-br/design-patterns/factory-method)
 
