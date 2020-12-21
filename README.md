@@ -1,7 +1,5 @@
 #  :computer: :blue_book: Design-Patterns
 
-#:br:
-
 ##### Este repositório para quem tem interesse de se aprofundar mais em design patterns. Não coloquei todos os patterns, mas como vocês podem ver deixei os links de referência para poder consultar todos os patterns.
 
 #### Referências úteis: 
@@ -59,5 +57,10 @@
 ##### O Mediator é um padrão de projeto comportamental que permite que você reduza as dependências caóticas entre objetos. O padrão restringe comunicações diretas entre objetos e os força a colaborar apenas através do objeto mediador. [Saiba mais](https://refactoring.guru/pt-br/design-patterns/mediator)
 
 
+##### This repository is interested go deeper more into design patterns. I didn't put them all patterns, but as you can see I left some references links for consulation.
 
-
+#### References: 
+ * :orange_book:  Designer Patterns book - (https://refactoring.guru/pt-br)  
+  * :bookmark_tabs: Dofactory -  (https://www.dofactory.com/net/abstract-factory-design-pattern)
+ * :bookmark_tabs: Sourcemaking -https://sourcemaking.com/design_patterns
+ 
