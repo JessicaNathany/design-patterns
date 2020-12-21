@@ -59,6 +59,7 @@
 
 
 <hr />
+
 ##### This repository is interested go deeper more into design patterns. I didn't put them all patterns, but as you can see I left some references links for consulation.
 
 #### References: 
