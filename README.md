@@ -69,8 +69,7 @@
  
  
 ## Creation Patterns
-##### The creation patterns provide various object creation mechanisms with increase flexibility and reuse of existing code
-[Reference link] (https://refactoring.guru/design-patterns/creational-patterns)
+##### The creation patterns provide various object creation mechanisms with increase flexibility and reuse of existing code [Reference link](https://refactoring.guru/design-patterns/creational-patterns)
 
 
  
