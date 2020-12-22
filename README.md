@@ -1,11 +1,12 @@
-# :computer: :blue_book: Design-Patterns
+#  :computer: :blue_book: Design-Patterns
 
 ##### Este repositório para quem tem interesse de se aprofundar mais em design patterns. Não coloquei todos os patterns, mas como vocês podem ver deixei os links de referência para poder consultar todos os patterns.
 
 #### Referências úteis: 
  * :orange_book: Livro Mergulho nos Padrões de Projeto - (https://refactoring.guru/pt-br)  
- * :video_camera: Plataforma Dev.IO - (https://desenvolvedor.io/)
+ * :video_camera: Arquitetura e Desenvolvimento de Software Plataforma Dev.IO - (https://desenvolvedor.io/)
  * :bookmark_tabs: Dofactory -  (https://www.dofactory.com/net/abstract-factory-design-pattern)
+ * :bookmark_tabs: Sourcemaking -https://sourcemaking.com/design_patterns
 
 
 ## Creation Patterns
@@ -13,6 +14,7 @@
 
 ### Abstract Factory
 ##### Cria uma instância de diversas famílias de classes. É um padrão de projeto criacional que permite que você produza famílias de objetos relacionados sem ter que especificar  suas classes concretas. [Saiba mais](https://refactoring.guru/pt-br/design-patterns/abstract-factory)
+
 
 ### Factory Method
 ##### Cria uma instância de diversas derivações de classes. É um padrão criacional de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados. [Saiba mais](https://refactoring.guru/pt-br/design-patterns/factory-method)
@@ -56,4 +58,12 @@
 
 
 
+<hr />
 
+##### This repository is interested go deeper more into design patterns. I didn't put them all patterns, but as you can see I left some references links for consulation.
+
+#### References: 
+ * :orange_book:  Designer Patterns book - (https://refactoring.guru/pt-br)  
+  * :bookmark_tabs: Dofactory -  (https://www.dofactory.com/net/abstract-factory-design-pattern)
+ * :bookmark_tabs: Sourcemaking -https://sourcemaking.com/design_patterns
+ 
