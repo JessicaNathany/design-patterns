@@ -10,7 +10,7 @@ namespace DesignPatterns._1__Creational._1._2_Factory_Method
         {
             throw new NotImplementedException();
 
-            // executa o exemplo do factory method 2 conta corrente
+            // executa os exemplos do factory method 
         }
     }
 }
