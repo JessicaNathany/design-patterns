@@ -2,10 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="1- Creational\1.2 Factory Method\" />
     <Folder Include="1- Creational\1.3 Singleton\" />
     <Folder Include="2- Structural\2.1 Adapter\" />
     <Folder Include="2- Structural\2.2 Facade\" />

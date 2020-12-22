@@ -6,22 +6,22 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Exemplo_3
     /// </summary>
     public class AplicacaoExemplo
     {
-        public static void Main()
-        {
-            // Abstract factory #1
+        //public static void Main()
+        //{
+        //    // Abstract factory #1
 
-            AbstractFactory factory1 = new ConcreteFactory1();
-            Cliente cliente1 = new Cliente(factory1);
-            cliente1.Run();
+        //    AbstractFactory factory1 = new ConcreteFactory1();
+        //    Cliente cliente1 = new Cliente(factory1);
+        //    cliente1.Run();
 
-            // Abstract factory #2
+        //    // Abstract factory #2
 
-            AbstractFactory factory2 = new ConcreteFactory2();
-            Cliente cliente2 = new Cliente(factory2);
-            cliente2.Run();
+        //    AbstractFactory factory2 = new ConcreteFactory2();
+        //    Cliente cliente2 = new Cliente(factory2);
+        //    cliente2.Run();
 
-            Console.ReadKey();
-        }
+        //    Console.ReadKey();
+        //}
     }
 
     /// <summary>

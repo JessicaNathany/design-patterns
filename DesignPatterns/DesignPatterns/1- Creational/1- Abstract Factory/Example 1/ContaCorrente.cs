@@ -10,8 +10,4 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Exemplo_1
 
         public string Endereco { get; set; }
     }
-
-    
-        
-
 }
