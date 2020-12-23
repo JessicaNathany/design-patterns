@@ -1,5 +1,5 @@
 ﻿using System;
-using ContaCorrente = DesignPatterns._1__Creational._1__Abstract_Factory.Exemplo_1.CurrenteAccount;
+using ContaCorrente = DesignPatterns._1__Creational._1__Abstract_Factory.Exemplo_1.CurrentAccount;
 
 namespace DesignPatterns_1_Creational_1_Abstract_Factory.Exemplo_1
 {

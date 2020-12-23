@@ -9,5 +9,8 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1.Interface
     /// </summary>
     public interface IInvestimentAccount
     {
+        double GetInvestimentforMonth(int id);
+        IInvestimentAccount GetById(int id);
+        IList<IInvestimentAccount> ListAll();
     }
 }
