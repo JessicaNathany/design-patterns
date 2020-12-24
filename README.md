@@ -73,13 +73,13 @@
 ##### The creation patterns provide various object creation mechanisms with increase flexibility and reuse of existing code [Read more](https://refactoring.guru/design-patterns/creational-patterns)
 
 ### Abstract Factory
-##### Is a creational design pattern that lets you produce families of related objects wihout specifying ther concrete classes. [Ready more](https://refactoring.guru/design-patterns/abstract-factory)
+##### Is a creational design pattern that lets you produce families of related objects wihout specifying ther concrete classes. [Read more](https://refactoring.guru/design-patterns/abstract-factory)
 
 ### Factory Method
-##### Is a creational design pattern that provides an interface of creating objects in a superclass, but allows subclass to alter the type of objects that will created. [Ready more](https://refactoring.guru/design-patterns/factory-method)
+##### Is a creational design pattern that provides an interface of creating objects in a superclass, but allows subclass to alter the type of objects that will created. [Read more](https://refactoring.guru/design-patterns/factory-method)
 
 ### Singleton
-##### Is a creational design pattern that lets you ensure that a class has only one instance, while priving a global access point to this instance.[Ready more](https://refactoring.guru/design-patterns/singleton)
+##### Is a creational design pattern that lets you ensure that a class has only one instance, while priving a global access point to this instance.[Read more](https://refactoring.guru/design-patterns/singleton)
 
 
 ## Structural Patterns
