@@ -8,6 +8,7 @@
  * :bookmark_tabs: Dofactory -  (https://www.dofactory.com/net/abstract-factory-design-pattern)
  * :bookmark_tabs: Sourcemaking -https://sourcemaking.com/design_patterns
 
+ Project status:  development :warning:
 
 ## Creation Patterns
 ##### Os padrões criacionais fornecem vários mecanismos de criação de objetos, que aumentam a flexibilidade e reutilização de código já existente.
