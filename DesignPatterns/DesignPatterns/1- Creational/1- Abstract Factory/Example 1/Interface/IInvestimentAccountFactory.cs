@@ -1,16 +1,15 @@
-﻿using System;
+﻿using DesignPatterns._1__Creational._1__Abstract_Factory.Exemplo_1;
 using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1.Interface
 {
     /// <summary>
     /// Abstract Factory
     /// </summary>
-    public interface IInvestimentAccount
+    public interface IInvestimentAccountFactory
     {
         double GetInvestimentforMonth(int id);
-        IInvestimentAccount GetById(int id);
-        IList<IInvestimentAccount> ListAll();
+        void Invest(InvestimentAccount typeInvestiment, double value);
+        IEnumerable<InvestimentAccount> ListAll();
     }
 }

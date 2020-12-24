@@ -1,17 +1,13 @@
 ﻿using DesignPatterns._1__Creational._1__Abstract_Factory.Exemplo_1;
-using System.Collections.Generic;
 
 namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1.Interface
 {
     /// <summary>
     /// Abstract Factory
     /// </summary>
-    public interface ICurrentAccount
+    public interface IAccountFactory
     {
-        double GetBalance(int id);
-
-        CurrentAccount GetById(int id);
-
-        IList<CurrentAccount> ListAll();
+        void Deposit(InvestimentAccount typeAccount, double value);
+        void Transfer(int destinationAgency, int destinationAccount, double value);
     }
 }
