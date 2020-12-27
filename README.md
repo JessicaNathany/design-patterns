@@ -73,19 +73,30 @@
 ##### The creation patterns provide various object creation mechanisms with increase flexibility and reuse of existing code [Read more](https://refactoring.guru/design-patterns/creational-patterns)
 
 ### Abstract Factory
-##### Is a creational design pattern that lets you produce families of related objects wihout specifying ther concrete classes. [Read more](https://refactoring.guru/design-patterns/abstract-factory)
+##### The Abstract Factory is a creational design pattern that lets you produce families of related objects wihout specifying ther concrete classes. [Read more](https://refactoring.guru/design-patterns/abstract-factory)
 
 ### Factory Method
-##### Is a creational design pattern that provides an interface of creating objects in a superclass, but allows subclass to alter the type of objects that will created. [Read more](https://refactoring.guru/design-patterns/factory-method)
+##### The Factory Method is a creational design pattern that provides an interface of creating objects in a superclass, but allows subclass to alter the type of objects that will created. [Read more](https://refactoring.guru/design-patterns/factory-method)
 
 ### Singleton
-##### Is a creational design pattern that lets you ensure that a class has only one instance, while priving a global access point to this instance.[Read more](https://refactoring.guru/design-patterns/singleton)
+##### The Singleton is a creational design pattern that lets you ensure that a class has only one instance, while priving a global access point to this instance.[Read more](https://refactoring.guru/design-patterns/singleton)
 
 
 ## Structural Patterns
 ##### Structural Patterns explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient.
 
 ### Bridge
-##### Bridge is a structural design pattern that lets you split a large class or a set of closely releated classes into two separate hierarchies-abstraction and implementation-which can be developed independently of each other. [Read more](https://refactoring.guru/design-patterns/bridge)
+##### The Bridge is a structural design pattern that lets you split a large class or a set of closely releated classes into two separate hierarchies-abstraction and implementation-which can be developed independently of each other. [Read more](https://refactoring.guru/design-patterns/bridge)
 
-### Adapter 
+### Adpter
+##### The Adapter is a structural design pattern that allows objects with incompatible interfaces to collaborate. [Read more](https://refactoring.guru/design-patterns/adapter)
+
+### Composite
+##### The Composite is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects. [Read more](https://refactoring.guru/design-patterns/composite)
+
+### Decorator
+##### The Decorator  is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors. [Read more](https://refactoring.guru/design-patterns/decorator)
+
+### Facade
+##### The Facade is a structural design pattern that provides a simplified interface to a library, a framework, or any other complex set of classes. [Read more](https://refactoring.guru/design-patterns/facade)
+
