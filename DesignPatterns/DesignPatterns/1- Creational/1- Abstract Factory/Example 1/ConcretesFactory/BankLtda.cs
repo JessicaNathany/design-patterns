@@ -10,17 +10,17 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1.Concretes
     /// </summary>
     public class BankLtda : IAccountFactory
     {
-        public void Deposit(InvestimentAccount typeAccount, double value)
+        public void Deposit(Account account, double value)
         {
             throw new NotImplementedException();
         }
 
-        public void Draft(Account account, double value)
+        public string GetService()
         {
             throw new NotImplementedException();
         }
 
-        public void Invest(InvestimentAccount typeInvestiment, double value)
+        public void Transfer(int destinationAgency, int destinationAccount, double value)
         {
             throw new NotImplementedException();
         }

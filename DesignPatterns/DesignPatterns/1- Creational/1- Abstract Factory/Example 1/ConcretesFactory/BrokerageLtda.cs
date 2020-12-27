@@ -11,17 +11,17 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1.Concretes
     /// </summary>
     public class BrokerageLtda : IInvestimentAccountFactory
     {
+        public string GetInvestiment()
+        {
+            throw new NotImplementedException();
+        }
+
         public double GetInvestimentforMonth(int id)
         {
             throw new NotImplementedException();
         }
 
         public void Invest(InvestimentAccount typeInvestiment, double value)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<InvestimentAccount> ListAll()
         {
             throw new NotImplementedException();
         }

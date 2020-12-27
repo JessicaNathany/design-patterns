@@ -13,6 +13,17 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1
         {
             throw new NotImplementedException();
         }
+
+        public void Deposit(Account account, double value)
+        {
+            throw new NotImplementedException();
+        }
+
+        public string GetService()
+        {
+            return "PIX - Service";
+        }
+
         public void Transfer(int destinationAgency, int destinationAccount, double value)
         {
             throw new NotImplementedException();

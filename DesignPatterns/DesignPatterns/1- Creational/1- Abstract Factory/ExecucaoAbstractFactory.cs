@@ -1,6 +1,5 @@
 ﻿using System;
 using ExecucaoAbstractFactoryExample1 = DesignPatterns_1_Creational_1_Abstract_Factory.Exemplo_1.ExecucaoAbstractFactoryExample1;
-using ExecucaoAbstractFactoryExample2 = DesignPatterns._1__Creational._1__Abstract_Factory.Example_2.ExecucaoAbstractFactoryExample2;
 using ExecucaoAbstractFactoryExample3 = DesignPatterns._1__Creational._1__Abstract_Factory.Example_3.ExecucaoAbstractFactoryExample3;
 
 namespace DesignPatterns_1_Creational_1_Abstract_Factory
@@ -26,9 +25,9 @@ namespace DesignPatterns_1_Creational_1_Abstract_Factory
                     ExecucaoAbstractFactoryExample1.Execute();
                     break;
 
-                case '2':
-                    ExecucaoAbstractFactoryExample2.Execute();
-                    break;
+                //case '2':
+                //    ExecucaoAbstractFactoryExample2.Execute();
+                //    break;
 
                 case '3':
                     ExecucaoAbstractFactoryExample3.Execute();

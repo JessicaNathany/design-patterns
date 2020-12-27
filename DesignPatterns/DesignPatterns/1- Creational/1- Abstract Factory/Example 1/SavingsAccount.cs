@@ -9,9 +9,14 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1
     /// </summary>
     public class SavingsAccount : IAccountFactory
     {
-        public void Deposit(InvestimentAccount typeAccount, double value)
+        public void Deposit(Account account, double value)
         {
             throw new NotImplementedException();
+        }
+
+        public string GetService()
+        {
+            return "Savings Account - Service";
         }
 
         public void Transfer(int destinationAgency, int destinationAccount, double value)

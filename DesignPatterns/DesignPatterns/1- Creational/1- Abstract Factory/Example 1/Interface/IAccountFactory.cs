@@ -7,7 +7,9 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1.Interface
     /// </summary>
     public interface IAccountFactory
     {
-        void Deposit(InvestimentAccount typeAccount, double value);
+        void Deposit(Account account, double value);
         void Transfer(int destinationAgency, int destinationAccount, double value);
+
+        string GetService();
     }
 }
