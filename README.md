@@ -8,9 +8,7 @@
  * :bookmark_tabs: Dofactory -  (https://www.dofactory.com/net/abstract-factory-design-pattern)
  * :bookmark_tabs: Sourcemaking -https://sourcemaking.com/design_patterns
 
- Project status:  development :warning:
- 
- ### 🛠 Tecnologias
+  ### 🛠 Tecnologias
 
  As seguintes ferramentas foram usadas na construção do projeto:
 
