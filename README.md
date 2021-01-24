@@ -10,9 +10,15 @@
 
  Project status:  development :warning:
  
+ ### 🛠 Tecnologias
+
+ As seguintes ferramentas foram usadas na construção do projeto:
+
+- [C#](https://docs.microsoft.com/pt-br/dotnet/csharp/)
+ 
  <h4 align="center"> 
 	🚧  Projetos 🚀 Em construção...  🚧
-</h4>
+ </h4>
 
 ## Creation Patterns
 ##### Os padrões criacionais fornecem vários mecanismos de criação de objetos, que aumentam a flexibilidade e reutilização de código já existente.
