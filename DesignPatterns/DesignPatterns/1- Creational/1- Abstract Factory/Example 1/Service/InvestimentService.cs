@@ -14,8 +14,6 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1
 
         public void Invest(InvestimentAccount investimentAccount, double value)
         {
-            var investiment = new InvestimentAccount();
-
             _investimentAccountFactory.Invest(investimentAccount, value);
         }
     }

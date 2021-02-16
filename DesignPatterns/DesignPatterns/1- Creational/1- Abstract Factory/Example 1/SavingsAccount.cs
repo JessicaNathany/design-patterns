@@ -19,7 +19,7 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1
             return "Savings Account - Service";
         }
 
-        public void Transfer(int destinationAgency, int destinationAccount, double value)
+        public void Transfer(double value, Account destinyAccount)
         {
             throw new NotImplementedException();
         }

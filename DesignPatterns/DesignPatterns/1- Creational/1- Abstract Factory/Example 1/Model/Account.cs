@@ -2,9 +2,13 @@
 {
     public class Account
     {
-        public string Name  { get; set; }
+        public string Name  { get ; set; }
         public string Document { get; set; }
         public string Address { get; set; }
+        public int Agency { get; set; }
+        public int AccountNumber { get; set; }
+        public int Digit { get; set; }
+
         public TypeAccount TypeAccount { get; set; }
     }
     public enum TypeAccount

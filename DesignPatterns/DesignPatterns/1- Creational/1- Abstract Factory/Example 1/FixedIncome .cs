@@ -23,7 +23,5 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1
         {
             throw new NotImplementedException();
         }
-
-      
     }
 }
