@@ -5,7 +5,7 @@ using System;
 namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1
 {
     /// <summary>
-    /// Product B1
+    /// Product B1 
     /// </summary>
     public class FixedIncome : IInvestimentAccountFactory
     {

@@ -16,7 +16,7 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1
 
         public void Deposit(Account account, double value)
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException(); 
         }
 
         public string GetService()
@@ -24,7 +24,7 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1
             return "PIX - Service";
         }
 
-        public void Transfer(int destinationAgency, int destinationAccount, double value)
+        public void Transfer(double value, Account destinationAccount)
         {
             throw new NotImplementedException();
         }

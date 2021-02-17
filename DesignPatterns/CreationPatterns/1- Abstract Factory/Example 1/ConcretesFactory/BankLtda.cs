@@ -20,7 +20,7 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1.Concretes
             throw new NotImplementedException();
         }
 
-        public void Transfer(int destinationAgency, int destinationAccount, double value)
+        public void Transfer(double value, Account destinationAccount)
         {
             throw new NotImplementedException();
         }

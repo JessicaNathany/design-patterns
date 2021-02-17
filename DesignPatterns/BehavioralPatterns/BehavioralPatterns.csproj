@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="1- Iterator\" />
+    <Folder Include="2- Strategy\" />
+    <Folder Include="3- Mediator\" />
+    <Folder Include="4- Command\" />
+    <Folder Include="5- Chain Of Responsability\" />
+  </ItemGroup>
+
+</Project>

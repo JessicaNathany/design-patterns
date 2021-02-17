@@ -3,7 +3,7 @@
 namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1.Interface
 {
     /// <summary>
-    /// Abstract Factory
+    /// Abstract Factory it's same IBaseGenericRepository for all InvestimentAccount
     /// </summary>
     public interface IInvestimentAccountFactory
     {
