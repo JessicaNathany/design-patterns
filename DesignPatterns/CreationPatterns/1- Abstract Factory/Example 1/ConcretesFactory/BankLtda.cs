@@ -14,7 +14,6 @@ namespace DesignPatterns._1__Creational._1__Abstract_Factory.Example_1.Concretes
         {
             throw new NotImplementedException();
         }
-
         public string GetService()
         {
             throw new NotImplementedException();

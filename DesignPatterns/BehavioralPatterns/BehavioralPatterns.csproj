@@ -11,6 +11,10 @@
     <Folder Include="3- Mediator\" />
     <Folder Include="4- Command\" />
     <Folder Include="5- Chain Of Responsability\" />
+    <Folder Include="6- Memento\" />
+    <Folder Include="7- State\" />
+    <Folder Include="8- Observer\" />
+    <Folder Include="9- Template Method\" />
   </ItemGroup>
 
 </Project>
