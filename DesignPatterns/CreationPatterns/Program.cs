@@ -1,4 +1,5 @@
-﻿using DesignPatterns_1_Creational_1_Abstract_Factory;
+﻿using DesignPatterns._1__Creational._1._2_Factory_Method;
+using DesignPatterns_1_Creational_1_Abstract_Factory;
 using System;
 
 namespace CreationPatterns
@@ -9,9 +10,10 @@ namespace CreationPatterns
         {
             Console.WriteLine("..:: Creational Patterns select an option ::..");
             Console.WriteLine();
-            Console.WriteLine("1 - Example one");
-            Console.WriteLine("2 - Example two");
-            Console.WriteLine("3 - Example three");
+            Console.WriteLine("1 - Abstract Factory - Example One");
+            Console.WriteLine("2 - Abstract Factory - Example Two");
+            Console.WriteLine("3 - Abstract Factory - Example Three");
+            Console.WriteLine("4 - Factory Method   - Example One");
             Console.WriteLine("------------------------");
     
             var option = Console.ReadKey();
@@ -27,7 +29,11 @@ namespace CreationPatterns
                     break;
 
                 case '3':
-                    new ExecuteAbstractFactory().ExampleThree();
+                    new ExecuteAbstractFactory().ExampleTwo();
+                    break;
+
+                case '4':
+                    new ExecuteFactoryMethod().ExampleOne();
                     break;
             }
         }

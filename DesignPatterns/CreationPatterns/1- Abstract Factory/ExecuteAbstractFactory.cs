@@ -4,12 +4,14 @@ using System;
 
 namespace DesignPatterns_1_Creational_1_Abstract_Factory
 {
+    /// <summary>
+    /// Here we can call kinde examples the Abstract Factory
+    /// </summary>
     public class ExecuteAbstractFactory
     {
         public void ExampleOne()
         {
-            Console.WriteLine("..:: Choice an option ::.. ");
-           
+            throw new NotImplementedException();
         }
 
         public void ExampleTwo()
@@ -28,14 +30,13 @@ namespace DesignPatterns_1_Creational_1_Abstract_Factory
 
         public void ExampleThree()
         {
-            Console.WriteLine("..:: Choice an option ::.. ");
+            throw new NotImplementedException();
         }
 
-
-
-        // this is method reference example two Abstract Factory
         private void ExampleTwoClientMethod(IAbstractFactory factory)
         {
+            // this is method reference example two Abstract Factory
+
             var productA = factory.CreateProductA();
             var productB = factory.CreateProductB();
 

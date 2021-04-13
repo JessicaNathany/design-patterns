@@ -9,6 +9,7 @@
     <Folder Include="1- Abstract Factory\Example 3\ConcreteFactory\" />
     <Folder Include="1- Abstract Factory\Example 3\Interface\" />
     <Folder Include="1- Abstract Factory\Example 3\Model\" />
+    <Folder Include="2- Factory Method\Example 2\" />
   </ItemGroup>
 
 </Project>
