@@ -1,5 +1,7 @@
 ﻿using CreationPatterns._1__Abstract_Factory.Example_2.ConcreteFactory;
 using CreationPatterns._1__Abstract_Factory.Example_2.Interface;
+using CreationPatterns._1__Abstract_Factory.Example_3;
+using CreationPatterns._1__Abstract_Factory.Example_3.Factories;
 using System;
 
 namespace DesignPatterns_1_Creational_1_Abstract_Factory
@@ -14,7 +16,7 @@ namespace DesignPatterns_1_Creational_1_Abstract_Factory
             throw new NotImplementedException();
         }
 
-        public void ExampleTwo()
+        public void Products()
         {
             // This an example two the RefactoringGuru for more information, visit the repository link bellow
             // https://github.com/RefactoringGuru/design-patterns-csharp
@@ -28,9 +30,42 @@ namespace DesignPatterns_1_Creational_1_Abstract_Factory
             ExampleTwoClientMethod(new ConcreteFactory2());
         }
 
-        public void ExampleThree()
+        public void Transport()
         {
-            throw new NotImplementedException();
+            ApplicationExecute application = ConfigureApplication();
+
+            application.StartRoute();
+            Console.ReadLine();
+
+        }
+
+        private static ApplicationExecute ConfigureApplication()
+        {
+            ApplicationExecute app;
+
+            ITransporFactory transporFactory = null;
+
+            Console.WriteLine("Select a service the type of service");
+            Console.WriteLine();
+            Console.WriteLine("1- Uber");
+            Console.WriteLine("2- 99");
+
+            var company = Console.ReadKey();
+
+            switch (company.KeyChar)
+            {
+                case '1':
+                    transporFactory = new UberTransport();
+                    break;
+
+                case '2':
+                    transporFactory = new NineNineTransport();
+                    break;
+            }
+
+            app = new ApplicationExecute(transporFactory);
+
+            return app;
         }
 
         private void ExampleTwoClientMethod(IAbstractFactory factory)

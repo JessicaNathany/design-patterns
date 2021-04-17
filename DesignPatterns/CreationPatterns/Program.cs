@@ -11,9 +11,10 @@ namespace CreationPatterns
             Console.WriteLine("..:: Creational Patterns select an option ::..");
             Console.WriteLine();
             Console.WriteLine("1 - Abstract Factory - Example One");
-            Console.WriteLine("2 - Abstract Factory - Example Two");
-            Console.WriteLine("3 - Abstract Factory - Example Three");
-            Console.WriteLine("4 - Factory Method   - Example One");
+            Console.WriteLine("2 - Abstract Factory - Example Products");
+            Console.WriteLine("3 - Abstract Factory - Example Transport");
+            Console.WriteLine("4 - Factory Method   - Example Transport");
+            Console.WriteLine("5 - Factory Method   - Example Banks");
             Console.WriteLine("------------------------");
     
             var option = Console.ReadKey();
@@ -25,15 +26,19 @@ namespace CreationPatterns
                     break;
 
                 case '2':
-                    new ExecuteAbstractFactory().ExampleTwo();
+                    new ExecuteAbstractFactory().Products();
                     break;
 
                 case '3':
-                    new ExecuteAbstractFactory().ExampleTwo();
+                    new ExecuteAbstractFactory().Transport();
                     break;
 
                 case '4':
-                    new ExecuteFactoryMethod().ExampleOne();
+                    new ExecuteFactoryMethod().Transport();
+                    break;
+
+                case '5':
+                    new ExecuteFactoryMethod().Banks();
                     break;
             }
         }
