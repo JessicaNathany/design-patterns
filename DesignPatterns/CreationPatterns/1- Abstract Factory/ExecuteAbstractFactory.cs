@@ -11,6 +11,7 @@ namespace DesignPatterns_1_Creational_1_Abstract_Factory
     /// </summary>
     public class ExecuteAbstractFactory
     {
+        ITransporFactory factory;
         public void ExampleOne()
         {
             throw new NotImplementedException();
@@ -36,15 +37,12 @@ namespace DesignPatterns_1_Creational_1_Abstract_Factory
 
             application.StartRoute();
             Console.ReadLine();
-
         }
 
-        private static ApplicationExecute ConfigureApplication()
+        private ApplicationExecute ConfigureApplication()
         {
             ApplicationExecute app;
-
-            ITransporFactory transporFactory = null;
-
+            
             Console.WriteLine("Select a service the type of service");
             Console.WriteLine();
             Console.WriteLine("1- Uber");
@@ -55,15 +53,15 @@ namespace DesignPatterns_1_Creational_1_Abstract_Factory
             switch (company.KeyChar)
             {
                 case '1':
-                    transporFactory = new UberTransport();
+                    factory = new UberTransport();
                     break;
 
                 case '2':
-                    transporFactory = new NineNineTransport();
+                    factory = new NineNineTransport();
                     break;
             }
 
-            app = new ApplicationExecute(transporFactory);
+            app = new ApplicationExecute(factory);
 
             return app;
         }

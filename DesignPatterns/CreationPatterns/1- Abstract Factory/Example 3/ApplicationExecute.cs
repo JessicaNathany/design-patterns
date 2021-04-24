@@ -11,8 +11,8 @@ namespace CreationPatterns._1__Abstract_Factory.Example_3
 
         public ApplicationExecute(ITransporFactory factory)
         {
-            factory.CreateTransportAirCraft();
-            factory.CreateTransportVehicle();
+            vehicle = factory.CreateTransportVehicle();
+            aircraft = factory.CreateTransportAirCraft();
         }
 
         public void StartRoute()
