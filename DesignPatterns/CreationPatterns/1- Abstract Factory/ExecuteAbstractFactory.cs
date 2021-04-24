@@ -47,8 +47,10 @@ namespace DesignPatterns_1_Creational_1_Abstract_Factory
             Console.WriteLine();
             Console.WriteLine("1- Uber");
             Console.WriteLine("2- 99");
+            Console.WriteLine("3- Lime");
 
             var company = Console.ReadKey();
+            Console.WriteLine();
 
             switch (company.KeyChar)
             {
@@ -58,6 +60,10 @@ namespace DesignPatterns_1_Creational_1_Abstract_Factory
 
                 case '2':
                     factory = new NineNineTransport();
+                    break;
+
+                case '3':
+                    factory = new LimeTransport();
                     break;
             }
 

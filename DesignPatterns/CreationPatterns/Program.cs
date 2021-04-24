@@ -1,5 +1,6 @@
 ﻿using DesignPatterns._1__Creational._1._2_Factory_Method;
 using DesignPatterns_1_Creational_1_Abstract_Factory;
+using DesignPatterns._1__Creational._1._2_Builder;
 using System;
 
 namespace CreationPatterns
@@ -10,14 +11,16 @@ namespace CreationPatterns
         {
             Console.WriteLine("..:: Creational Patterns select an option ::..");
             Console.WriteLine();
-            Console.WriteLine("1 - Abstract Factory - Example One");
+            Console.WriteLine("1 - Abstract Factory - Example Bank");
             Console.WriteLine("2 - Abstract Factory - Example Products");
             Console.WriteLine("3 - Abstract Factory - Example Transport");
             Console.WriteLine("4 - Factory Method   - Example Transport");
             Console.WriteLine("5 - Factory Method   - Example Banks");
-            Console.WriteLine("------------------------");
+            Console.WriteLine("6 - Builder          - Example Vehicle");
+            Console.WriteLine();
     
             var option = Console.ReadKey();
+            Console.WriteLine();
 
             switch (option.KeyChar)
             {
@@ -39,6 +42,10 @@ namespace CreationPatterns
 
                 case '5':
                     new ExecuteFactoryMethod().Banks();
+                    break;
+
+                case '6':
+                    new ExecuteBuilder().Vehicle();
                     break;
             }
         }
