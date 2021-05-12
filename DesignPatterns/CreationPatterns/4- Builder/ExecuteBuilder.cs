@@ -14,7 +14,7 @@ namespace DesignPatterns._1__Creational._1._2_Builder
 
             director.ConstructSedanCar();
             director.ConstructTruck();
-            //director.ConstructSUV();
+            director.ConstructSUV();
 
             Vehicle sedan = builder.GetVehicle();
             Vehicle truck = builder.GetVehicle();

@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <Folder Include="1- Bridge\" />
-    <Folder Include="2- Adapter\" />
     <Folder Include="3- Facade\" />
     <Folder Include="4- Composite\" />
     <Folder Include="5- Decorator\" />
