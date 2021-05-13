@@ -1,4 +1,5 @@
 ﻿using StructuralPatterns._2__Adapter;
+using StructuralPatterns._2__Adapter.Example_2;
 using System;
 
 namespace StructuralPatterns
@@ -11,7 +12,7 @@ namespace StructuralPatterns
             Console.WriteLine();
             Console.WriteLine("1 - Adapter Payment");
             Console.WriteLine();
-            Console.WriteLine("2 - Example two");
+            Console.WriteLine("2 - Example Ecommerce");
             Console.WriteLine();
             Console.WriteLine("3 - Example three");
             Console.WriteLine();
@@ -25,9 +26,9 @@ namespace StructuralPatterns
                     new ExecuteAdapter().Payment();
                     break;
 
-                    //case '2':
-                    //    new Execute().ExampleTwo();
-                    //    break;
+                case '2':
+                    new ExecuteAdapterEcommerce().Ecommerce();
+                    break;
 
                     //case '3':
                     //    new Execute().ExampleThree();

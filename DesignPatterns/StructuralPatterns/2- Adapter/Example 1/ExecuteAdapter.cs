@@ -8,6 +8,9 @@ namespace StructuralPatterns._2__Adapter
         public void Payment()
         {
             //Paypal payment = new Paypal();
+            //payment.PayPalPayment();
+            //payment.PayPalReceive();
+
             //IPaypalPayment payment = new PayonnerAdapter(new Payonner());
             //payment.PayPalPayment();
             //payment.PayPalReceive();
