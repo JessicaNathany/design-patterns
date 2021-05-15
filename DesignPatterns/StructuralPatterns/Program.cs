@@ -1,4 +1,5 @@
-﻿using StructuralPatterns._2__Adapter;
+﻿using StructuralPatterns._1__Bridge;
+using StructuralPatterns._2__Adapter;
 using StructuralPatterns._2__Adapter.Example_2;
 using System;
 
@@ -10,11 +11,11 @@ namespace StructuralPatterns
         {
             Console.WriteLine("..:: Structural Patterns select an option ::..");
             Console.WriteLine();
-            Console.WriteLine("1 - Adapter Payment");
+            Console.WriteLine("1 - Adapter Example Payment");
             Console.WriteLine();
-            Console.WriteLine("2 - Example Ecommerce");
+            Console.WriteLine("2 - Adapter Example Ecommerce");
             Console.WriteLine();
-            Console.WriteLine("3 - Example three");
+            Console.WriteLine("3 - Bridge Platform");
             Console.WriteLine();
             Console.WriteLine("------------------------");
 
@@ -30,9 +31,9 @@ namespace StructuralPatterns
                     new ExecuteAdapterEcommerce().Ecommerce();
                     break;
 
-                    //case '3':
-                    //    new Execute().ExampleThree();
-                    //    break;
+                case '3':
+                    new ExecuteBridge().TestBridgePlatform();
+                    break;
             }
         }
     }
