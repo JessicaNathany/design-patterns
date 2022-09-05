@@ -1,6 +1,7 @@
 ﻿using CreationPatterns._2__Factory_Method.Example_1.Factories;
 using CreationPatterns._2__Factory_Method.Example_2.Factories;
 using CreationPatterns._2__Factory_Method.Example_2.Factory;
+using CreationPatterns._2__Factory_Method.Example_3.Factories;
 using System;
 
 namespace DesignPatterns._1__Creational._1._2_Factory_Method
@@ -61,6 +62,27 @@ namespace DesignPatterns._1__Creational._1._2_Factory_Method
             }
 
             if (bank != null) { bank.GetMoney(); }
+
+            Console.ReadLine();
+        }
+
+        public void Suppliers()
+        {
+            Console.WriteLine("type 1 to enter");
+            Console.WriteLine();
+
+            var option = Console.ReadKey();
+            SupplierProductsFactory supplierProducts = null;
+
+            switch (option.KeyChar)
+            {
+                case '1':
+                    supplierProducts = new SupplierFactory();
+                    break;
+            }
+
+            if (supplierProducts != null) 
+                supplierProducts.GetProductsSupplier(); 
 
             Console.ReadLine();
         }

@@ -16,7 +16,8 @@ namespace CreationPatterns
             Console.WriteLine("3 - Abstract Factory - Example Transport");
             Console.WriteLine("4 - Factory Method   - Example Transport");
             Console.WriteLine("5 - Factory Method   - Example Banks");
-            Console.WriteLine("6 - Builder          - Example Vehicle");
+            Console.WriteLine("6 - Factory Method   - Example Supplier");
+            Console.WriteLine("7 - Builder          - Example Vehicle");
             Console.WriteLine();
     
             var option = Console.ReadKey();
@@ -44,7 +45,12 @@ namespace CreationPatterns
                     new ExecuteFactoryMethod().Banks();
                     break;
 
+
                 case '6':
+                    new ExecuteFactoryMethod().Suppliers();
+                    break;
+
+                case '7':
                     new ExecuteBuilder().Vehicle();
                     break;
             }

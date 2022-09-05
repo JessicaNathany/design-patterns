@@ -12,7 +12,7 @@ namespace BehavioralPatterns._5__Chain_Of_Responsability
         public void TestMiddleware()
         {
             Init();
-            Boolean done = false;
+            var done = false;
 
             do
             {

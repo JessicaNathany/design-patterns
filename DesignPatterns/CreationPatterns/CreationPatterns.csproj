@@ -5,8 +5,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="2- Factory Method\Example 3\" />
-  </ItemGroup>
-
 </Project>
