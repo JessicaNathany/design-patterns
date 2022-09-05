@@ -5,7 +5,7 @@ using System;
 
 namespace CreationPatterns
 {
-    public class Program
+    public class CreationalPatterns
     {
         static void Main(string[] args)
         {

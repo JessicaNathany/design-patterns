@@ -5,7 +5,7 @@ using System;
 
 namespace StructuralPatterns
 {
-    class Program
+    class StructuralPatterns
     {
         static void Main(string[] args)
         {

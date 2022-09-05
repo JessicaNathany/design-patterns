@@ -3,7 +3,7 @@ using System;
 
 namespace BehavioralPatterns
 {
-    public class Program
+    public class BehavioralPattern
     {
         static void Main(string[] args)
         {
